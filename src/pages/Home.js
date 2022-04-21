@@ -11,7 +11,7 @@ const Home = () => {
 			<section className='mb-90'>
 				<h4>projects</h4>
 				<h2>Our work</h2>
-				<div className='w-grid mb-50 mt-40'>
+				<div className='w-grid-home mb-50 mt-40'>
 					<Work>
 						<header>
 							<img
@@ -43,7 +43,7 @@ const Home = () => {
 							</li>
 						</ul>
 
-						<div className='footer'>Asset & Resource Management</div>
+						<div className='footer'>Asset & Resource Management Investment LTD</div>
 					</Work>
 
 					<Work>
@@ -86,56 +86,8 @@ const Home = () => {
 							</li>
 						</ul>
 
-						<div className='footer'>Payday</div>
+						<div className='footer'>Payday Investor</div>
 					</Work>
-
-					{/* <Work>
-						<header>
-							<img
-								src='https://paydayinvestor.ng/LandingPage/images/payday-investor-logo.svg'
-								alt='payday'
-							/>
-						</header>
-
-						<ul>
-							<li>
-								Implemented a Knowledge Base Management system for several companies
-								in the Telecoms and Banking sectors such as{' '}
-								<big>
-									MTN Nigeria, Access bank, Etisalat, Stanbic Pensions, Diamond
-									Bank
-								</big>{' '}
-								etc.
-							</li>
-
-							<li>
-								Optimized the application for growth, plugging various marketing
-								tools such as Facebook SDK, Firebase, one-Signal, branch.io etc. and
-								in the process increasing transaction processing to the tune of over
-								2 billion.
-							</li>
-
-							<li>
-								Tracked and fixed bugs found through the use of appcenter bug
-								diagnostics.
-							</li>
-
-							<li>
-								Tracking analytics and generating usage reports using tools like
-								firebase, google analytics, mssql, appcenter analytics.
-							</li>
-
-							<li>Carried out system security analysis</li>
-
-							<li>
-								Re-created the application with a new stack from xamarin to flutter
-								(didn&apos;t make it to production). For iPhone and Android market
-								channel
-							</li>
-						</ul>
-
-						<div className='footer'>Payday</div>
-					</Work> */}
 				</div>
 				<Link to='works'>
 					<Button>see all projects</Button>

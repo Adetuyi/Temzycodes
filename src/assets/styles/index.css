@@ -11,6 +11,9 @@
 }
 body {
 	padding: 0 20px;
+	max-width: 1500px;
+	margin: 0 auto;
+	min-width: 350px;
 }
 a {
 	text-decoration: none;
@@ -41,7 +44,12 @@ h2 {
 .w-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
-	grid-gap: 20px;
+	grid-gap: 30px 20px;
+}
+.w-grid-home {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px 20px;
 }
 .mb-90 {
 	margin-bottom: 90px;
@@ -51,4 +59,9 @@ h2 {
 }
 .mt-40 {
 	margin-top: 40px;
+}
+@media (max-width: 850px) {
+	.w-grid-home {
+		grid-template-columns: 1fr;
+	}
 }
