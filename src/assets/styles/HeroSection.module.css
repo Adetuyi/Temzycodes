@@ -13,12 +13,6 @@
 	font-weight: 800;
 	margin-bottom: 20px;
 }
-.hero p {
-	font-weight: 500;
-	font-size: 18px;
-	color: var(--grey);
-	line-height: 1.65em;
-}
 .hero button {
 	margin-top: 40px;
 }

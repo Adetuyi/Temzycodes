@@ -17,6 +17,37 @@ a {
 	color: inherit;
 	font-weight: 500;
 }
+p {
+	font-weight: 500;
+	font-size: 18px;
+	color: var(--grey);
+	line-height: 1.65em;
+}
+h4 {
+	color: var(--blue);
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+}
+h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
 .blue {
 	color: var(--blue);
+}
+.w-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+	grid-gap: 20px;
+}
+.mb-90 {
+	margin-bottom: 90px;
+}
+.mb-50 {
+	margin-bottom: 50px;
+}
+.mt-40 {
+	margin-top: 40px;
 }
