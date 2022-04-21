@@ -7,9 +7,7 @@
 	background-color: #fff;
 	transition: transform 0.3s;
 }
-.work:hover {
-	transform: scale(1.05, 1.1);
-}
+
 .work header img {
 	display: block;
 	margin: 0 auto;
@@ -30,4 +28,10 @@
 	font-weight: 500;
 	margin-top: auto;
 	padding-top: 30px;
+}
+
+@media (hover) {
+	.work:hover {
+		transform: scale(1.05, 1.1);
+	}
 }
