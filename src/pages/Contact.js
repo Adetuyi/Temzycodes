@@ -1,7 +1,5 @@
 import React from 'react';
 import Button from '../components/Button';
-import { IoIosCall } from 'react-icons/io';
-import { MdEmail } from 'react-icons/md';
 import styles from '../assets/styles/Contact.module.css';
 
 const Contact = () => {
