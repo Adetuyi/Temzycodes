@@ -41,6 +41,7 @@ const Clients = () => {
 				</div>
 				<div className={styles.controllers}>
 					<div
+						className='active'
 						onClick={(e) => {
 							setState('one');
 							handleToggle(e);

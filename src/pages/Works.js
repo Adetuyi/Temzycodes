@@ -1,6 +1,7 @@
 import React from 'react';
 import Work from '../components/Work';
 import styles from '../assets/styles/Works.module.css';
+import Clients from '../components/Clients';
 
 const Works = () => {
 	return (
@@ -160,6 +161,7 @@ const Works = () => {
 					<div className='footer'>Simplex Business Solutions</div>
 				</Work>
 			</div>
+			<Clients />
 		</>
 	);
 };
