@@ -2,11 +2,45 @@ import HeroSection from '../components/HeroSection';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
 import Work from '../components/Work';
+import Service from '../components/Service';
+import Clients from '../components/Clients';
 
 const Home = () => {
 	return (
 		<>
 			<HeroSection />
+
+			<section className='mb-90 services'>
+				<div>
+					<h4>Services</h4>
+					<h2>Core services</h2>
+					<p className='mb-50'>
+						We provide digital experience services to businesses looking for digital
+						transformation of their design & development, lead generation, digital media
+						and communications requirements.
+					</p>
+				</div>
+
+				<div>
+					<Service>
+						<img src='/assets/svgs/comp.svg' alt='' />
+						<h3>Web & Mobile Development</h3>
+						<p>
+							Our full-stack design and development team provides front-end, back-end
+							and mobile development services.
+						</p>
+					</Service>
+					<div className='mb-30'></div>
+					<Service>
+						<img src='/assets/svgs/comp.svg' alt='' />
+						<h3>UI/UX Deseign</h3>
+						<p>
+							Our UI/UX designers focus on improving conversion and increasing
+							customer engagement.
+						</p>
+					</Service>
+				</div>
+			</section>
 
 			<section className='mb-90'>
 				<h4>projects</h4>
@@ -94,15 +128,7 @@ const Home = () => {
 				</Link>
 			</section>
 
-			<section className='mb-90'>
-				<h4>Services</h4>
-				<h2>Core services</h2>
-				<p>
-					We provide digital experience services to businesses looking for digital
-					transformation of their design & development, lead generation, digital media and
-					communications requirements.
-				</p>
-			</section>
+			<Clients />
 		</>
 	);
 };

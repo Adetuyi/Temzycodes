@@ -57,11 +57,32 @@ h2 {
 .mb-50 {
 	margin-bottom: 50px;
 }
+.mb-30 {
+	margin-bottom: 30px;
+}
 .mt-40 {
 	margin-top: 40px;
 }
 @media (max-width: 850px) {
 	.w-grid-home {
 		grid-template-columns: 1fr;
+	}
+}
+@media (min-width: 1200px) {
+	.services > div:last-child {
+		display: flex;
+		gap: 1rem;
+	}
+}
+@media (min-width: 800px) {
+	.services {
+		display: flex;
+		gap: 1rem;
+	}
+	.services > div:first-child {
+		max-width: 50%;
+	}
+	.services > div:last-child {
+		max-width: 50%;
 	}
 }
